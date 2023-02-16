@@ -36,19 +36,20 @@ function Project(props) {
 					<div className="card">
 						<footer className="card-footer">
 						<a
+							href={project.live}
+							className="card-footer-item"
+							target="_blank" rel="noreferrer"
+						>
+                            Deployed Site/App
+							
+						</a>
+						<br />
+						<a
 							href={project.repo}
 							className="card-footer-item"
 							target="_blank" rel="noreferrer"
 						>
 							Github Repo
-						</a>
-						<br />
-						<a
-							href={project.live}
-							className="card-footer-item"
-							target="_blank" rel="noreferrer"
-						>
-							Deployed Site/App
 						</a>
 						</footer>
 					</div>
