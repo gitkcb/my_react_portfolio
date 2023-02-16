@@ -1,24 +1,72 @@
-import React from 'react';
+import React from "react";
+import Project from "../Project";
 
-export default function Portfolio() {
-  return (
-    <div>
-      <h1>Portfolio</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-    </div>
-  );
+const projects = [
+	{
+		id: 0,
+		title: "Headspace.ai",
+		languages: "JavaScript, SQL, Node.js, Handlebars.js",
+		image: "",
+		description: "Prompt your own AI generated image and save to your gallery!",
+		repo: "https://github.com/theLemmonade/project-headspace.ai",
+		live: "https://headspaceai.herokuapp.com/",
+	},
+	{
+		id: 1,
+		title: "Film Findr",
+		languages: "JavaScript, HTML, CSS",
+		image: "",
+		description: "Search for movies and save to your favorites!",
+		repo: "https://github.com/MikeWebPrint/movie-wishlist",
+		live: "https://mikewebprint.github.io/movie-wishlist/"
+	},
+	{
+		id: 2,
+		title: "Work Day Scheduler",
+		languages: "JavaScript",
+		image: "",
+		description: "Keep track of your hourly to-do's with this daily scheduling app",
+		live: "https://gitkcb.github.io/daily_schedule/",
+		repo: "https://github.com/gitkcb/daily_schedule",
+	},
+	{
+		id: 3,
+		title: "Text Editor",
+		languages: "Javascript, CSS, HTML",
+		image: "",
+		description: "Save your text on this app!",
+		live: "https://kevin-jate-2023.herokuapp.com/",
+		repo: "https://github.com/gitkcb/text_editor",
+	},
+	{
+		id: 4,
+		title: "My Portfolio",
+		languages: "CSS",
+		image: "",
+		description: "My CSS portfolio",
+		live: "https://gitkcb.github.io/my_portfolio/",
+		repo: "https://github.com/gitkcb/my_portfolio",
+	},
+	{
+		id: 5,
+		title: "Note Taking",
+		languages: "JavaScript, HTML, CSS",
+		image: "",
+		description: "Save notes using this app",
+		live: "https://note-taker-kb-2022.herokuapp.com/",
+		repo: "https://github.com/gitkcb/note-taking",
+	},
+];
+
+function Portfolio() {
+	return (
+		<div>
+			<p className="content is-medium">Portfolio</p>
+		<hr />
+
+			<Project projects={projects} />
+		</div>
+	);
 }
+
+export default Portfolio;
