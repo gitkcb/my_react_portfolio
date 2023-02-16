@@ -27,7 +27,15 @@ const renderPage = () => {
 const handlePageChange = (page) => setCurrentPage(page);
 
 return (
+   
   <div>
+    <nav className='navbar'>
+        <div className='navbar-brand'>
+            <a className='navbar-item' rel= "noreferrer" target= "_blank" href="https://github.com/gitkcb">
+                <span className='content is-large'>Kevin Bell</span>
+            </a>
+        </div>
+    </nav>
    
     <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
     {renderPage()}
