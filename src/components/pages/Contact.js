@@ -10,7 +10,7 @@ function Contact() {
     
   
   if (state.succeeded) {
-    return <p>Thanks for jreaching out!</p>;
+    return <p>Thanks for reaching out!</p>;
   }
   const handleChange = (e) => {
     if (e.target.name === 'email') {

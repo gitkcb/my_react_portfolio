@@ -6,7 +6,7 @@ export default function About() {
       <p>About Me</p>
       <hr />
       <p>
-       I'm Kevin, a new full stack developer looking to apply 
+       
       </p>
     </div>
   );
