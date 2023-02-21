@@ -2,13 +2,13 @@ import React from "react";
 
 function Project(props) {
 	return (
-		<div>
-		<div className="">
+		<div className="container text-center" >
+		<div className="col">
 			{props.projects.map((project) => (
-			<div className="">
+			<div className="col">
 				<div className="card">
 				<div className="card-image">
-					<figure className="">
+					<figure className="image is-4by3">
 					<a href={project.live} target="_blank" rel="noreferrer">
 						<img src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
 					</a>

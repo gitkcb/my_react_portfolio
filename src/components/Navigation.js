@@ -1,7 +1,8 @@
 import React from 'react';
 function Navigation({ currentPage, handlePageChange }) {
     return (
-        <ul className="nav tabs">
+        <div className="nav-tabs is-centered"> 
+        <ul className="nav-tabs">
             <li className="nav-item">
                 <a 
                 href="#about"
@@ -39,6 +40,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 </a>
                 </li>
         </ul>
+        </div>
     )
 }
 
