@@ -3,9 +3,9 @@
 
     function Resume() {
       return (
+        <div className= "container-base mb-4">
         <div>
-        <div>
-          <p>Resume</p>
+          <p className = "text-center mt-4 fs-2">Resume</p>
           <hr />
     
           <a
@@ -13,16 +13,15 @@
           href={process.env.PUBLIC_URL + "Kevin_BellResume_2023.pdf"}
           target="_blank" rel="noreferrer"
           >
-          <span>
-            <i></i>
-          </span>
-          <span>Download My Resume</span>
+          
+          <p className ="text-center mt-4 fs-2">Download My Resume</p>
           </a>
         </div>
-        <div>
-          <p>Skills</p>
-          <hr />
-          <ul>
+
+        <div className = "card-body">
+          <p className ="text-center mt-4 fs-2">Skills</p>
+          <div className = "card-content">
+          <ul className ="text-center mt-4 fs-2 list-unstyled">
             <li>HTML, CSS, Javascript</li>
             <li>JSON</li>
             <li>React</li>
@@ -30,6 +29,7 @@
             <li>Git</li>
             
           </ul>
+          </div>
         </div>
         </div>
       );

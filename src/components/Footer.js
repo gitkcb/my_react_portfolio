@@ -2,7 +2,7 @@
 
 function Footer() {
     return(
-        <footer>
+        <footer className="fixed-bottom">
             <div className="content has-text-centered" >
                 <p>
                         <strong>My Full Stack Development Portfolio</strong> - a React site by{" "}

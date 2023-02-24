@@ -1,9 +1,15 @@
 import React from "react";
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <div className="App-header">
-      <ul className="navbar">
-        <li className="navbar-item">
+    <div className="App-header row">
+         <nav className='navbar '>
+        <div className='navbar-brand col-12'>
+            
+                <h1 className= 'text-center fs-1'> BELL</h1>
+            
+        </div> 
+      <ul className="navbar list-unstyled d-flex justify-content-end col-12">
+        <li className="nav-item fs-3">
           <a
             href="#about"
             onClick={() => handlePageChange("About")}
@@ -12,7 +18,7 @@ function Navigation({ currentPage, handlePageChange }) {
             About Me
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item fs-3">
           <a
             href="#contact"
             onClick={() => handlePageChange("Contact")}
@@ -23,7 +29,7 @@ function Navigation({ currentPage, handlePageChange }) {
             Contact
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item fs-3">
           <a
             href="#portfolio"
             onClick={() => handlePageChange("Portfolio")}
@@ -34,7 +40,7 @@ function Navigation({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item fs-3">
           <a
             href="#resume"
             onClick={() => handlePageChange("Resume")}
@@ -46,7 +52,9 @@ function Navigation({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
+      </nav>
     </div>
+   
   );
 }
 

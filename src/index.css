@@ -6,13 +6,26 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+   
+  }
+  .body{
+    background-color: rgb(218, 227, 237)
   }
   .navbar, .navbar-brand {
     text-align: center;
     display: block;
     width: 100%;
-    background-color: slategray;
+    background-color: rgb(145, 163, 181);
     
+    
+  }
+  .nav-item{
+    margin:0 20px;
+    
+  }
+  img{
+    max-width: 100%;
+    height: auto;
   }
   
   div.navbar-brand {
@@ -24,8 +37,13 @@ body {
   .navbar .navbar-brand > .navbar-item,
   .navbar .navbar-brand .navbar-link {
     display: inline-block;
+   
     
   }
+  form{
+    float: right;
+  }
+  
   main {
     margin-top: 2em;
     margin-bottom: 2em;
