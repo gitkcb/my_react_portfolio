@@ -2,64 +2,63 @@ import React from "react";
 
 function Project(props) {
 	return (
-		<div className="container text-center" >
-		<div className="col">
-			{props.projects.map((project) => (
-			<div className="col">
-				<div className="card">
-				<div className="card-image">
-					<figure className="image is-4by3">
-					<a href={project.live} target="_blank" rel="noreferrer">
-						<img src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
-					</a>
-					</figure>
-				</div>
-				<div className="card-content">
-					<div className="media">
-					<div className="media-left"></div>
-					<div className="media-content">
-						<p className="title is-4" key={project.id}>
-						{project.title}
-						</p>
-					</div>
-					</div>
-
-					<div className="content has-text-left">
-					{project.description}
-					<br />
-					<br />
-					<div className="content is-family-code">
-						Languages: {project.languages}
-						<br />
-						
-					</div>
-					<div className="card">
-						<footer className="card-footer">
-						<a
-							href={project.live}
-							className="card-footer-item"
-							target="_blank" rel="noreferrer"
-						>
-                            Deployed Site/App
+		<div className = "row row-cols-2 row-cols-sm-3 ">
+				{props.projects.map((project) => (
+					<div className="card text-center">
+						<div className="card-body">
 							
-						</a>
-						<br />
-						<a
-							href={project.repo}
-							className="card-footer-item"
-							target="_blank" rel="noreferrer"
-						>
-							Github Repo
-						</a>
-						</footer>
-					</div>
-					</div>
+								<div className="card-img">
+									<a href={project.live} target="_blank" rel="noreferrer">
+										<img src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
+									</a>
+								</div>
+							
+							<div className="card-content">
+								
+									<div className=""></div>
+									<div className="">
+										<p className="" key={project.id}>
+											{project.title}
+										</p>
+									</div>
+								
+
+								<div className="">
+									{project.description}
+									<br />
+									<br />
+									<div className="">
+										Languages: {project.languages}
+										<br />
+
+									</div>
+									
+										<footer className="card-footer">
+											<a
+												href={project.live}
+												className="card-footer-item"
+												target="_blank" rel="noreferrer"
+											>
+												Deployed Site/App
+
+											</a>
+											<br />
+											<a
+												href={project.repo}
+												className="card-footer-item"
+												target="_blank" rel="noreferrer"
+											>
+												Github Repo
+											</a>
+										</footer>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+				))}
 				</div>
-				</div>
-			</div>
-			))}
-		</div>
-		</div>
+		
 	);
 }
 

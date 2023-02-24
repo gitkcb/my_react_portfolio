@@ -60,7 +60,7 @@ const projects = [
 
 function Portfolio() {
 	return (
-		<div>
+		<div className= "container-base">
 			<p>Portfolio</p>
 		<hr />
 
