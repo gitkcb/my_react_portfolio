@@ -26,13 +26,19 @@ body {
     margin:0 20px;
     
   }
+  .header-name{
+    font-size: 5rem;
+    background-color: black;
+    color:rgb(145, 163, 181);
+    margin-left: 2rem;
+  }
   .hyperlink{
     text-decoration: none;
     color: black;
   }
   .hyperlink:hover{
     color:white;
-    background-color: rgb(218, 227, 237)
+    
   }
   .card-footer{
     background-color: rgb(218, 227, 237)

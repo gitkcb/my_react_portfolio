@@ -15,8 +15,8 @@
           <p className ="text-center mt-4 fs-2 text-decoration-underline">Front-End Skills</p>
           <div className = "card-content">
           <ul className ="text-center mt-4 fs-5 list-unstyled">
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
+            <li>HTML5/CSS3</li>
+            <li>JavaScript ES6+</li>
             <li>BootStrap</li>
             <li>React</li>
             <li>Third Party APIs</li>
@@ -71,9 +71,9 @@
           </a>
         </div>
         </div>
-        <div className ="row p-5 m-5">
+        <div className ="row p-5">
         </div>
-           <div className ="row p-3 m-5">
+           <div className ="row">
 
         </div>
        

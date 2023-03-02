@@ -5,7 +5,7 @@ function Navigation({ currentPage, handlePageChange }) {
          <nav className='navbar row'>
         <div className='navbar-brand col-4'>
             
-                <h1 className= 'text-center fs-1'> BELL</h1>
+                <h1 className= 'header-name text-center'> BELL</h1>
             
         </div> 
       <ul className="navbar list-unstyled d-flex justify-content-end col-6 me-5">

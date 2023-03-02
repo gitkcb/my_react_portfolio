@@ -2,7 +2,7 @@
 
 function Footer() {
     return(
-        <footer className="fixed-bottom">
+        <footer className="">
             <div className="text-end" >
                 <p className= "fs-5 me-5 mt-1">
                         <strong>My Full Stack Development Portfolio</strong> | {" "}
