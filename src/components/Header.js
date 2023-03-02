@@ -28,7 +28,7 @@ const handlePageChange = (page) => setCurrentPage(page);
 
 return (
    
-  <div>
+  <div className= "header">
  
    
     <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />

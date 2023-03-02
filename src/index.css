@@ -12,7 +12,8 @@ body {
     background-color: rgb(218, 227, 237)
   }
   .container-base{
-    background-color: rgb(218, 227, 237)
+    background-color: rgb(218, 227, 237);
+    font-family: monospace;
   }
   .navbar, .navbar-brand {
     text-align: center;
@@ -23,8 +24,10 @@ body {
     
   }
   .nav-item{
-    margin:0 20px;
-    
+    margin:0 40px;
+  }
+  .header{
+    font-family: monospace;
   }
   .header-name{
     font-size: 5rem;
@@ -39,6 +42,15 @@ body {
   .hyperlink:hover{
     color:white;
     
+  }
+  .hyperlink-footer{
+    text-decoration: none;
+    color: black;
+  }
+  .hyperlink-footer:hover{
+    color:white;
+    background-color: rgb(145, 163, 181);
+    padding: 0 0.25rem 0 0.25rem;
   }
   .card-footer{
     background-color: rgb(218, 227, 237)
@@ -58,6 +70,7 @@ body {
   .navbar .navbar-brand > .navbar-item,
   .navbar .navbar-brand .navbar-link {
     display: inline-block;
+    
    
     
   }
@@ -84,7 +97,9 @@ body {
   }
   footer {
     background-color: rgb(145, 163, 181);
+    font-family: monospace;
   }
+ 
   @media only screen and (max-width: 1024px) {
     main {
       margin-top: 2em;

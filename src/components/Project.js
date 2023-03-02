@@ -6,17 +6,18 @@ function Project(props) {
 			{props.projects.map((project) => (
 				<div className="card text-center  m-5">
 					<div className="card-body">
+					<div className="text-uppercase fs-3 mt-2">
+							<p className="" key={project.id}>
+								{project.title}
+							</p>
+						</div>
 						<div className="card-img border">
 							<a href={project.live} target="_blank" rel="noreferrer">
 								<img src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
 							</a>
 						</div>
 					<div className="card-content">
-						<div className="text-uppercase fs-3 mt-2">
-							<p className="" key={project.id}>
-								{project.title}
-							</p>
-						</div>
+						
 					<div className=" fs-5">
 						{project.description}
 							<br/>
@@ -28,7 +29,7 @@ function Project(props) {
 							Languages: {project.languages}
 							<br />
 						</div>
-							<a href={project.repo} className="card-footer-item hyperlink" target="_blank" rel="noreferrer">
+							<a href={project.repo} className="card-footer-item hyperlink-footer" target="_blank" rel="noreferrer">
 							Github Repo
 							</a>
 						</footer>

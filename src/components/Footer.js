@@ -4,14 +4,14 @@ function Footer() {
     return(
         <footer className="">
             <div className="text-end" >
-                <p className= "fs-5 me-5 mt-1">
+                <p className= "fs-5 me-5 pt-2">
                         <strong>My Full Stack Development Portfolio</strong> | {" "}
                         <a href = "https://github.com/gitkcb" target="_blank" rel="noreferrer" className="hyperlink">
                             Github
                         </a>
                         </p>
                     <hr />
-                    <p className= "fs-5 me-5">
+                    <p className= "fs-5 me-5 pb-4">
                     <a href= "https://linkedin.com/in/kcharlesbell" target="_blank" rel="noreferrer" className="hyperlink"> LinkedIn</a>
                     {" "}
                     |{" "}{" "}
