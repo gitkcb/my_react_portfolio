@@ -2,13 +2,13 @@ import React from "react";
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <div className="App-header row">
-         <nav className='navbar '>
-        <div className='navbar-brand col-12'>
+         <nav className='navbar row'>
+        <div className='navbar-brand col-4'>
             
                 <h1 className= 'text-center fs-1'> BELL</h1>
             
         </div> 
-      <ul className="navbar list-unstyled d-flex justify-content-end col-12">
+      <ul className="navbar list-unstyled d-flex justify-content-end col-4 me-5">
         <li className="nav-item fs-3">
           <a
             href="#about"
@@ -16,17 +16,6 @@ function Navigation({ currentPage, handlePageChange }) {
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
           >
             About Me
-          </a>
-        </li>
-        <li className="nav-item fs-3">
-          <a
-            href="#contact"
-            onClick={() => handlePageChange("Contact")}
-            className={
-              currentPage === "Contact" ? "nav-link active" : "nav-link"
-            }
-          >
-            Contact
           </a>
         </li>
         <li className="nav-item fs-3">
@@ -40,6 +29,18 @@ function Navigation({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
+        <li className="nav-item fs-3">
+          <a
+            href="#contact"
+            onClick={() => handlePageChange("Contact")}
+            className={
+              currentPage === "Contact" ? "nav-link active" : "nav-link"
+            }
+          >
+            Contact
+          </a>
+        </li>
+    
         <li className="nav-item fs-3">
           <a
             href="#resume"

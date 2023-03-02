@@ -23,6 +23,9 @@ body {
     margin:0 20px;
     
   }
+  .hyperlink{
+    text-decoration: none;
+  }
   img{
     max-width: 100%;
     height: auto;

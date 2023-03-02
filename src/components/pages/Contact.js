@@ -46,13 +46,14 @@ function Contact() {
 
  
   return(
-  <div className="mb-5">
+  <div className="container-base">
      
-      <div>
+    
           
-              <h2 className="text-center mt-4 fs-2" id="portfolioTitle">Contact Me</h2>
-              <hr className='ms-5'/>
-      </div>
+      <p className="text-end fs-1 me-5">Contact Me</p>
+      <hr/>
+              
+    
     <div className = "row">
       <form className="form col-6">
        
