@@ -28,8 +28,8 @@ function Project(props) {
 							Languages: {project.languages}
 							<br />
 						</div>
-							<a href={project.repo} className="card-footer-item" target="_blank" rel="noreferrer">
-							Github Repo
+							<a href={project.repo} className="card-footer-item hyperlink" target="_blank" rel="noreferrer">
+							-Github Repo-
 							</a>
 						</footer>
 

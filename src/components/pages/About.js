@@ -11,15 +11,17 @@ export default function About() {
         </div>
       
       <div className ="col-6">
-      <p className ="content text-wrap">
-       conten tconte ntconten content
-       conten tcontent
-       contentcontentconten
-       tcontent content
-       contentcontentcontentc ontentcontent content contentconten tcontentcontentcontent contentcontentcontent contentcontentc ontentcontentcontentcont entcontentcontent contentcontentcont entcontentcontent contentco ntentconten tcontentcontentc ontentcontentcontent
+      <p className ="text-wrap fs-3 ms-5 ps-5">
+       Hello! My name is Kevin Bell and I'm 
       </p>
       </div>
       </div>
+      <div className="row p-5">
+
+      </div>
+      <div className="row p-5">
+        
+        </div>
     </div>
   );
 }

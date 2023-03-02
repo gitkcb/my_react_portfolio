@@ -8,17 +8,18 @@ function Navigation({ currentPage, handlePageChange }) {
                 <h1 className= 'text-center fs-1'> BELL</h1>
             
         </div> 
-      <ul className="navbar list-unstyled d-flex justify-content-end col-4 me-5">
-        <li className="nav-item fs-3">
+      <ul className="navbar list-unstyled d-flex justify-content-end col-6 me-5">
+        <li className="nav-item fs-4">
           <a
             href="#about"
             onClick={() => handlePageChange("About")}
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
           >
-            About Me
+            About Me 
           </a>
         </li>
-        <li className="nav-item fs-3">
+        <li className="nav-item fs-4">
+        
           <a
             href="#portfolio"
             onClick={() => handlePageChange("Portfolio")}
@@ -26,10 +27,10 @@ function Navigation({ currentPage, handlePageChange }) {
               currentPage === "Portfolio" ? "nav-link active" : "nav-link"
             }
           >
-            Portfolio
+            Portfolio  
           </a>
         </li>
-        <li className="nav-item fs-3">
+        <li className="nav-item fs-4">
           <a
             href="#contact"
             onClick={() => handlePageChange("Contact")}
@@ -37,11 +38,11 @@ function Navigation({ currentPage, handlePageChange }) {
               currentPage === "Contact" ? "nav-link active" : "nav-link"
             }
           >
-            Contact
+            Contact  
           </a>
         </li>
     
-        <li className="nav-item fs-3">
+        <li className="nav-item fs-4">
           <a
             href="#resume"
             onClick={() => handlePageChange("Resume")}
