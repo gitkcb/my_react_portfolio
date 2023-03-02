@@ -58,7 +58,7 @@ function Contact() {
       <form className="form col-6">
        
       <div className=" mb-3 ms-3 mt-3 me-3">
-              <label htmlFor='name' className="form-label">Name:</label>
+              <label htmlFor='name' className="form-label fs-3">Name:</label>
               <input
                   className="form-control"
                   value={name}
@@ -68,7 +68,7 @@ function Contact() {
                   placeholder="Enter your name"></input>
           </div>
        <div className="  mb-3 ms-3 mt-3 me-3">
-              <label htmlFor='email' className="form-label">Email:</label>
+              <label htmlFor='email' className="form-label fs-3">Email:</label>
               <input
                   className="form-control"
                   value={email}

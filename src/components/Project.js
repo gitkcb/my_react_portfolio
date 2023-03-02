@@ -29,7 +29,7 @@ function Project(props) {
 							<br />
 						</div>
 							<a href={project.repo} className="card-footer-item hyperlink" target="_blank" rel="noreferrer">
-							-Github Repo-
+							Github Repo
 							</a>
 						</footer>
 
