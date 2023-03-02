@@ -2,7 +2,7 @@ import React from "react";
 
 function Project(props) {
 	return (
-		<div className = "row row-cols-2 row-cols-sm-3 justify-content-center bg-light">
+		<div className = "row row-cols-2 row-cols-sm-3 justify-content-center">
 			{props.projects.map((project) => (
 				<div className="card text-center  m-5">
 					<div className="card-body">

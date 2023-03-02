@@ -11,6 +11,9 @@ body {
   .body{
     background-color: rgb(218, 227, 237)
   }
+  .container-base{
+    background-color: rgb(218, 227, 237)
+  }
   .navbar, .navbar-brand {
     text-align: center;
     display: block;
