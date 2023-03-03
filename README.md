@@ -1,6 +1,6 @@
 # my_react_portfolio
 Github page: https://github.com/gitkcb/my_react_portfolio <br>
-Live page: 
+Live page: https://gitkcb.github.io/my_react_portfolio/
 
 
 ## Description

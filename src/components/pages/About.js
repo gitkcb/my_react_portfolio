@@ -7,7 +7,7 @@ export default function About() {
       <hr />
       <div className = "row justify-content-center">
         <div className = "col-sm-12 col-md-4">
-          <img src="/images/me.jpg" alt="me on the shore" className= "rounded-pill"></img>
+          <img src= {process.env.PUBLIC_URL + "/images/kevin.jpg"} alt="me on the shore" className= "rounded-pill"></img>
         </div>
       
       <div className ="col-md-6 col-sm-12">
