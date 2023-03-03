@@ -3,12 +3,12 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
     <div className="App-header row">
          <nav className='navbar row'>
-        <div className='navbar-brand col-4'>
+        <div className='navbar-brand col-md-4'>
             
                 <h1 className= 'header-name text-center'> BELL</h1>
             
         </div> 
-      <ul className="navbar list-unstyled d-flex justify-content-end col-6 me-5">
+      <ul className="navbar list-unstyled d-flex justify-content-end col-md-6 me-5">
         <li className="nav-item fs-4">
           <a
             href="#about"

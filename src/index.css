@@ -52,6 +52,12 @@ body {
     background-color: rgb(145, 163, 181);
     padding: 0 0.25rem 0 0.25rem;
   }
+  .card-img{
+    filter:grayscale(1);
+  }
+  .card-img:hover{
+    filter:grayscale(0);
+  }
   .card-footer{
     background-color: rgb(218, 227, 237)
   }
