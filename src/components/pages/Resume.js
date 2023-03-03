@@ -10,7 +10,7 @@
     
          <div className = "row d-flex justify-content-around">
         
-        <div className ="card col-sm-12 col-md-3 ">
+        <div className ="card col-sm-12 mt-sm-4 col-md-3 ">
         <div className = "card-body">
           <p className ="text-center mt-4 fs-2 text-decoration-underline">Front-End Skills</p>
           <div className = "card-content">
