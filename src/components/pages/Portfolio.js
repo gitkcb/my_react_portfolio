@@ -41,12 +41,12 @@ const projects = [
   },
   {
     id: 4,
-    title: "My Portfolio",
-    languages: "CSS",
-    image: "/images/cssportfolio.png",
-    description: "My CSS portfolio",
-    live: "https://gitkcb.github.io/my_portfolio/",
-    repo: "https://github.com/gitkcb/my_portfolio",
+    title: "Pack & Go",
+    languages: "MERN Stack",
+    image: "/images/Pack&go.png",
+    description: "A One-stop budget and travel site",
+    live: "https://packandgo.herokuapp.com/",
+    repo: "https://github.com/julianbenchimol/trip-budget-manager",
   },
   {
     id: 5,
